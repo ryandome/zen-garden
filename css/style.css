@@ -1,1 +1,27 @@
+header, section, aside, nav, article {
+display:block;}
 
+li {
+display:inline-block; margin-right:10px;}
+
+table{text-align:center;width:960px; margin: 0 auto;}
+
+td.zn{background-color: coral; padding-top: 20px; padding-bottom: 15px; font-size:125%; }
+td.notes{background-color: darkslateblue; padding-top: 20px; padding-bottom: 15px; font-size:125%;}
+
+
+header{
+background-image: url("../imgs/steel.jpg"); height:220px; }
+
+h1{height: 150px; color:white; font-size:32; text-align: center;}
+
+nav {
+background-color:darkgrey; position:bottom center; height: 60px;}
+
+div .content {position: relative; float: left; background-image: url(../imgs/street.jpg); width:600px; height: 100px; top:50px; }
+
+div.side {float:right; width: 100; height: 100; left:0; }
+
+p {Background-color: crimson; color: white; }
+
+body{background-color:black;}
